@@ -549,8 +549,13 @@ textarea { resize: vertical; }
     .google-review-summary {
         grid-template-columns: 1fr;
     }
+    .nav-wrap {
+        align-items: flex-start;
+        flex-direction: column;
+    }
     .main-nav {
-        display: none;
+        justify-content: flex-start;
+        gap: .75rem;
     }
     .hero {
         padding-top: 3rem;
